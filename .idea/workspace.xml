@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9e8ec87-0fbd-4cf0-8984-7cba104e6902" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d31d25dd-50b7-4297-96df-74896efe282f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d31d25dd-50b7-4297-96df-74896efe282f.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wulinpeng/bean/api/goods/AddGoodsModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/wulinpeng/bean/api/goods/AddGoodsModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wulinpeng/bean/db/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/wulinpeng/bean/db/Goods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wulinpeng/factory/CartFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/wulinpeng/factory/CartFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wulinpeng/factory/GoodsFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/wulinpeng/factory/GoodsFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wulinpeng/service/GoodsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/wulinpeng/service/GoodsService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1443,12 +1437,12 @@
       <workItem from="1520328471007" duration="1015000" />
       <workItem from="1521912065439" duration="1116000" />
       <workItem from="1522744168257" duration="380000" />
-      <workItem from="1524492515834" duration="1848000" />
+      <workItem from="1524492515834" duration="2151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30251000" />
+    <option name="totallyTimeSpent" value="30554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
