@@ -13,10 +13,9 @@ import java.security.Principal;
 @Entity(name = "TB_GOODS")
 public class Goods implements Principal {
 
+    // 商品编码
     @Id
     @PrimaryKeyJoinColumn
-    @GeneratedValue(generator = "uuid")
-    @GenericGenerator(name = "uuid", strategy = "uuid2")
     @Column(nullable = false, updatable = false)
     private String id;
 

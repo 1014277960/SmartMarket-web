@@ -8,6 +8,8 @@ import com.google.common.base.Strings;
  */
 public class AddGoodsModel {
 
+    private String code;
+
     private String name;
 
     private String picture;
@@ -19,6 +21,14 @@ public class AddGoodsModel {
     private int price;
 
     private int count;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 
     public String getPicture() {
         return picture;
@@ -69,6 +79,7 @@ public class AddGoodsModel {
     }
 
     public static boolean check(AddGoodsModel model) {
-        return model != null && !Strings.isNullOrEmpty(model.getName());
+        return model != null && !Strings.isNullOrEmpty(model.getName())
+                && !Strings.isNullOrEmpty(model.getCode());
     }
 }

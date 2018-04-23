@@ -34,13 +34,13 @@ public class GoodsService {
      * @return
      */
     @GET
-    @Path("/id/{id}")
+    @Path("/code/{code}")
     @Produces(MediaType.APPLICATION_JSON)
-    public ResponseModel<Goods> searchGoodsById(@PathParam("id") String id) {
-        if (Strings.isNullOrEmpty(id)) {
+    public ResponseModel<Goods> searchGoodsByCode(@PathParam("code") String code) {
+        if (Strings.isNullOrEmpty(code)) {
             return ResponseModel.buildParameterError();
         }
-        Goods goods = GoodsFactory.findById(id);
+        Goods goods = GoodsFactory.findByCode(code);
         if (goods != null) {
             return ResponseModel.buildOk(goods);
         } else {
@@ -88,7 +88,9 @@ public class GoodsService {
             goods.setDescription(model.getDesc());
         } else {
             goods = new Goods();
+            goods.setId(model.getCode());
             goods.setName(model.getName());
+            goods.setPicture(model.getPicture());
             goods.setDescription(model.getDesc());
             goods.setPrice(model.getPrice());
             goods.setCount(model.getCount());

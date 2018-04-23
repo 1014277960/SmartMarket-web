@@ -13,10 +13,10 @@ import java.util.List;
  */
 public class GoodsFactory {
 
-    public static Goods findById(String id) {
+    public static Goods findByCode(String code) {
         return Hib.query(session -> (Goods) session
-                .createQuery("from com.wulinpeng.bean.db.Goods where id=:id")
-                .setParameter("id", id)
+                .createQuery("from com.wulinpeng.bean.db.Goods where id=:code")
+                .setParameter("code", code)
                 .uniqueResult());
     }
 

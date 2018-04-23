@@ -39,7 +39,7 @@ public class CartFactory {
 
     private static ShoppingCartCard addGoodsToCart(User user, Item item) {
 
-        Goods goods = GoodsFactory.findById(item.getGoodsId());
+        Goods goods = GoodsFactory.findByCode(item.getGoodsId());
         if (goods == null) {
             return null;
         }
